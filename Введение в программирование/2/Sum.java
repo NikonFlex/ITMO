@@ -17,15 +17,6 @@ public class Sum {
             }
             sum += safeParseInt(current_number_as_string);
         }
-        // sol 2
-        /*for (String arg : args) {
-            String[] elems = arg.replaceAll("[^a-zA-Z0-9-+]", " ").split("\\s+");
-            for (String elem : elems) {
-                if (elem != "") { 
-                    sum += Integer.parseInt(elem);
-                }
-            }
-        }*/
         System.out.println(sum);
     }
 }
